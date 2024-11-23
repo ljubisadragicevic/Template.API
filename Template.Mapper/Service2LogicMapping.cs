@@ -2,11 +2,10 @@
 
 namespace Template.Mapper
 {
-    public class AutoMapperProfile : Profile
+    public class Service2LogicMapping : Profile
     {
-        public AutoMapperProfile()
+        public Service2LogicMapping()
         {
-            CreateMap<Template.Logic.Model.ClientResponse, Template.Service.Model.ClientResponse>();
             CreateMap<Template.Service.Model.ClientResponse, Template.Logic.Model.ClientResponse>();
         }
     }

@@ -14,7 +14,8 @@ builder.Services.AddControllers();
 
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
-builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+builder.Services.AddAutoMapper(typeof(Service2LogicMapping));
+builder.Services.AddAutoMapper(typeof(Logic2ServiceMapping));
 
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
