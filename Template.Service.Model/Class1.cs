@@ -1,4 +1,4 @@
-﻿namespace Template.Logic
+﻿namespace Template.Service.Model
 {
     public class Class1
     {

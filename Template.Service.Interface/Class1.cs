@@ -1,4 +1,4 @@
-﻿namespace Template.Logic.Interface
+﻿namespace Template.Service.Interface
 {
     public class Class1
     {

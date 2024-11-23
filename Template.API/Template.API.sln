@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Logic.Interface", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service", "..\Template.Service\Template.Service.csproj", "{31BF57F3-2746-4F72-824D-26A9475F0C12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service.Model", "..\Template.Service.Model\Template.Service.Model.csproj", "{AE48950E-E2B8-4326-8C0D-7C2357544B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service.Interface", "..\Template.Service.Interface\Template.Service.Interface.csproj", "{28581A82-2B77-401C-B9C3-2EFBA963B983}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{31BF57F3-2746-4F72-824D-26A9475F0C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31BF57F3-2746-4F72-824D-26A9475F0C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31BF57F3-2746-4F72-824D-26A9475F0C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE48950E-E2B8-4326-8C0D-7C2357544B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE48950E-E2B8-4326-8C0D-7C2357544B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE48950E-E2B8-4326-8C0D-7C2357544B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE48950E-E2B8-4326-8C0D-7C2357544B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28581A82-2B77-401C-B9C3-2EFBA963B983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28581A82-2B77-401C-B9C3-2EFBA963B983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28581A82-2B77-401C-B9C3-2EFBA963B983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28581A82-2B77-401C-B9C3-2EFBA963B983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Logic.Interface\Template.Logic.Interface.csproj" />
+    <ProjectReference Include="..\Template.Logic.Model\Template.Logic.Model.csproj" />
+    <ProjectReference Include="..\Template.Logic\Template.Logic.csproj" />
+  </ItemGroup>
+
 </Project>
