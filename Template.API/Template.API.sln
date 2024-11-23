@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service.Model", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service.Interface", "..\Template.Service.Interface\Template.Service.Interface.csproj", "{28581A82-2B77-401C-B9C3-2EFBA963B983}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Dependency", "..\Template.Dependency\Template.Dependency.csproj", "{88240197-6F60-4D41-8347-17B9A1F8E0D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{28581A82-2B77-401C-B9C3-2EFBA963B983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28581A82-2B77-401C-B9C3-2EFBA963B983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28581A82-2B77-401C-B9C3-2EFBA963B983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88240197-6F60-4D41-8347-17B9A1F8E0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88240197-6F60-4D41-8347-17B9A1F8E0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88240197-6F60-4D41-8347-17B9A1F8E0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88240197-6F60-4D41-8347-17B9A1F8E0D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

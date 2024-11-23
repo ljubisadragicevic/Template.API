@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Service.Model\Template.Service.Model.csproj" />
+  </ItemGroup>
+
 </Project>
