@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Logic.Interface\Template.Logic.Interface.csproj" />
+    <ProjectReference Include="..\Template.Logic.Model\Template.Logic.Model.csproj" />
+  </ItemGroup>
+
+</Project>
