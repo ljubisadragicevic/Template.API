@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Template.Logic.Interface\Template.Logic.Interface.csproj" />
     <ProjectReference Include="..\Template.Logic.Model\Template.Logic.Model.csproj" />
-    <ProjectReference Include="..\Template.Service.Interface\Template.Service.Interface.csproj" />
     <ProjectReference Include="..\Template.Service.Model\Template.Service.Model.csproj" />
   </ItemGroup>
 

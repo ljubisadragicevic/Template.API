@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
@@ -16,6 +17,7 @@
     <ProjectReference Include="..\Template.Logic.Interface\Template.Logic.Interface.csproj" />
     <ProjectReference Include="..\Template.Logic.Model\Template.Logic.Model.csproj" />
     <ProjectReference Include="..\Template.Logic\Template.Logic.csproj" />
+    <ProjectReference Include="..\Template.Mapper\Template.Mapper.csproj" />
   </ItemGroup>
 
 </Project>

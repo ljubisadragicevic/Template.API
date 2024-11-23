@@ -1,4 +1,5 @@
-﻿using Template.Logic.Interface;
+﻿using AutoMapper;
+using Template.Logic.Interface;
 using Template.Logic.Model;
 using Template.Service.Interface;
 
@@ -6,24 +7,23 @@ namespace Template.Logic
 {
     public class ClientLogic : IClientLogic
     {
+        private readonly IMapper _mapper;
         private readonly IClientService _clientService;
 
-        public ClientLogic(IClientService clientService)
+        public ClientLogic(
+            IMapper mapper,
+            IClientService clientService)
         {
+            _mapper = mapper;
             _clientService = clientService;
         }
 
         public ClientResponse GetClient(int id)
         {
-            var response = new ClientResponse();
-
             var serviceResponse = _clientService.GetClient(id);
 
-            response.Id = serviceResponse.Id;
-            response.Name = serviceResponse.Name;
-            response.Address = serviceResponse.Address;
-            response.Code = serviceResponse.Code;
-
+            var response = _mapper.Map<ClientResponse>(serviceResponse);
+  
             return response;
         }
     }

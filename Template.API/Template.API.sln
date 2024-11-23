@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.API", "Template.API.csproj", "{07B8AF41-363C-4541-BCEE-C7297E8D30E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.API", "Template.API.csproj", "{07B8AF41-363C-4541-BCEE-C7297E8D30E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Logic", "..\Template.Logic\Template.Logic.csproj", "{2430CA45-0427-48D9-A04E-FDEA5E04E479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Logic", "..\Template.Logic\Template.Logic.csproj", "{2430CA45-0427-48D9-A04E-FDEA5E04E479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Logic.Model", "..\Template.Logic.Model\Template.Logic.Model.csproj", "{E930AC5F-5F99-4AFA-8F08-838567ED38BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Logic.Model", "..\Template.Logic.Model\Template.Logic.Model.csproj", "{E930AC5F-5F99-4AFA-8F08-838567ED38BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Logic.Interface", "..\Template.Logic.Interface\Template.Logic.Interface.csproj", "{02EA83A9-6B79-47A0-B5C0-83C444FEB4A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Logic.Interface", "..\Template.Logic.Interface\Template.Logic.Interface.csproj", "{02EA83A9-6B79-47A0-B5C0-83C444FEB4A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service", "..\Template.Service\Template.Service.csproj", "{31BF57F3-2746-4F72-824D-26A9475F0C12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Service", "..\Template.Service\Template.Service.csproj", "{31BF57F3-2746-4F72-824D-26A9475F0C12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service.Model", "..\Template.Service.Model\Template.Service.Model.csproj", "{AE48950E-E2B8-4326-8C0D-7C2357544B3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Service.Model", "..\Template.Service.Model\Template.Service.Model.csproj", "{AE48950E-E2B8-4326-8C0D-7C2357544B3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service.Interface", "..\Template.Service.Interface\Template.Service.Interface.csproj", "{28581A82-2B77-401C-B9C3-2EFBA963B983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Service.Interface", "..\Template.Service.Interface\Template.Service.Interface.csproj", "{28581A82-2B77-401C-B9C3-2EFBA963B983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Dependency", "..\Template.Dependency\Template.Dependency.csproj", "{88240197-6F60-4D41-8347-17B9A1F8E0D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Dependency", "..\Template.Dependency\Template.Dependency.csproj", "{88240197-6F60-4D41-8347-17B9A1F8E0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Mapper", "..\Template.Mapper\Template.Mapper.csproj", "{643E3792-E917-4FE6-A162-C3EBF1303A9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{88240197-6F60-4D41-8347-17B9A1F8E0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88240197-6F60-4D41-8347-17B9A1F8E0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88240197-6F60-4D41-8347-17B9A1F8E0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643E3792-E917-4FE6-A162-C3EBF1303A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643E3792-E917-4FE6-A162-C3EBF1303A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643E3792-E917-4FE6-A162-C3EBF1303A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643E3792-E917-4FE6-A162-C3EBF1303A9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
