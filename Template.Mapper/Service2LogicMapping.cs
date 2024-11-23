@@ -6,7 +6,7 @@ namespace Template.Mapper
     {
         public Service2LogicMapping()
         {
-            CreateMap<Template.Service.Model.ClientResponse, Template.Logic.Model.ClientResponse>();
+            CreateMap<Service.Model.ClientResponse, Logic.Model.ClientResponse>();
         }
     }
 }

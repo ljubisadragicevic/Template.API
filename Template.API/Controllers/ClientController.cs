@@ -10,10 +10,14 @@ namespace Template.API.Controllers
     [ApiController]
     public class ClientController : ControllerBase
     {
-
+        private readonly ILogger<ClientController> _logger;
         private readonly IClientLogic _clientLogic;
-        public ClientController(IClientLogic clientLogic)
+
+        public ClientController(
+            ILogger<ClientController> logger,
+            IClientLogic clientLogic)
         {
+            _logger = logger;
             _clientLogic = clientLogic;
         }
 

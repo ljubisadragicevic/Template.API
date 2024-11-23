@@ -11,7 +11,7 @@ namespace Template.Mapper
     {
         public Logic2ServiceMapping()
         {
-            CreateMap<Template.Logic.Model.ClientResponse, Template.Service.Model.ClientResponse>();
+            CreateMap<Logic.Model.ClientResponse, Service.Model.ClientResponse>();
         }
     }
 }
